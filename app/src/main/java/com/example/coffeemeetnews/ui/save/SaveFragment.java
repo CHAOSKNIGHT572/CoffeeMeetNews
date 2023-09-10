@@ -10,11 +10,6 @@ import android.view.ViewGroup;
 
 import com.example.coffeemeetnews.R;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link SaveFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
 public class SaveFragment extends Fragment {
 
     @Override

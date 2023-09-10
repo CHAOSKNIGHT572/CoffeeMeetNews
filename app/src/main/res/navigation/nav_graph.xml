@@ -3,21 +3,24 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/homeFragment">
+    app:startDestination="@id/navigation_home">
 
     <fragment
-        android:id="@+id/homeFragment"
+        android:id="@+id/navigation_home"
         android:name="com.example.coffeemeetnews.ui.home.HomeFragment"
-        android:label="fragment_home"
+        android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
     <fragment
-        android:id="@+id/searchFragment"
+        android:id="@+id/navigation_search"
         android:name="com.example.coffeemeetnews.ui.search.SearchFragment"
-        android:label="fragment_search"
-        tools:layout="@layout/fragment_search" />
+        android:label="@string/title_search"
+        tools:layout="@layout/fragment_search"
+ />
     <fragment
-        android:id="@+id/saveFragment"
+        android:id="@+id/navigation_save"
         android:name="com.example.coffeemeetnews.ui.save.SaveFragment"
-        android:label="fragment_save"
-        tools:layout="@layout/fragment_save" />
+        android:label="@string/title_save"
+        tools:layout="@layout/fragment_save"
+ />
+
 </navigation>
